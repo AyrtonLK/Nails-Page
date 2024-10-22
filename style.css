@@ -55,10 +55,10 @@ li  {
     justify-content: space-between;
 }
 
-/* #navBar img {
-    width: 80px;
-}
- */
+nav a:hover {
+    color: #f7a29e;
+} 
+
 #navBar ul {
     display: flex;
     column-gap: 30px;
