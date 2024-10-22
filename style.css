@@ -22,7 +22,7 @@ li  {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: monospace;
+    font-family: 'Montserrat';
 }
 
 /*ESTILO MAIN*/
@@ -31,8 +31,6 @@ li  {
     min-height: 100vh;
     padding: 0 70px;
     display: flex;
-/*     flex-direction: column;
-    align-items: center; */
 }
 
 /*ESTILO HEADER*/

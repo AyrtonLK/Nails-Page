@@ -28,7 +28,7 @@ li  {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: monospace;
+    font-family: 'Montserrat';
 }
 
 /*ESTILO MAIN*/
@@ -56,7 +56,7 @@ li  {
 
 #navBar {
     display: flex;
-    width: 100%;
+    width: 2560px;
     height: 100%;
     flex-wrap: wrap;
     align-items: center;
@@ -132,6 +132,17 @@ text-decoration-color: #f7a29e;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+}
+
+/*MAIN*/
+
+.mainP {
+    display: flex;
+}
+.contenidoP {
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color: #3b3f49;
 }
 
 /*LOGO FOTTER*/
@@ -221,7 +232,7 @@ nav {
 }
 
 body {
-    font-family: monospace;
+    font-family: 'Montserrat';
     margin: 0;
 }
 
