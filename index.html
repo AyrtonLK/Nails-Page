@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--LIBRERÍA FONT AWESOME/ICONS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Inicio</title>
+    </head>
+    <body id="body">
+
+        <!--BEM= BLOQUE ELEMENTO MODIFICADOR-->
+        <!--HEADER/NAV-->
+        <header id="header">
+            <nav id="navBar">
+                <picture class="navBarLogo">
+                    <img class="navBarLogoImg" src="icons/icono1.ico" alt="">
+                </picture>
+
+        <!--MENU HAMBURGUESA-->
+                <label class="labelHamburguesa" for="menuHamburguesa">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width="16" 
+                    height="16" 
+                    fill="currentColor" 
+                    class="listIcon" 
+                    viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </label>
+                <input class="menuHamburguesa" type="checkbox" name="" id="menuHamburguesa">
+                <ul class="ulLinks">
+                    <li class="linkNav"><a class="links" href="#">Inicio</a></li>
+                    <li class="linkNav"><a class="links" href="pages/contacto.html">Contacto</a></li>
+                    <li class="linkNav"><a class="links" href="pages/imagenes.html">Imágenes</a></li>
+                    <li class="linkNav"><a class="links" href="pages/productos.html">Productos</a></li>
+                    <li class="linkNav"><a class="links" href="pages/acercaDe.html">Acerca de</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--BANNER DEL SITIO-->
+        <div class="contenedorBanner">
+        <section class="mainBanner">
+            <picture class="mainBannerPicture">
+                <img src="images/BANNER.png" alt="">
+            </picture>
+        </section>
+        </div>
+
+        <!--ESTRUCTURA°2 = MAIN-->    
+        <main id="main">
+            <section class="inicioContenido1">
+                <h2 class="inicioContenido1H2">Lo mejor para tus uñas</h2>
+                <p class="inicioContenido1P">¡Desata tu lado más cool con nuestras manicuras! ¿Cansada de las mismas uñas aburridas? ¡Es hora de darle un twist a tu look! En Nail Studio te ofrecemos una experiencia única y divertida para que tus uñas sean la envidia de todas.
+                    Desde diseños súper coloridos y llamativos hasta estilos más minimalistas y elegantes, tenemos opciones para todos los gustos y ocasiones. ¿Te gustan las uñas acrílicas con diseños extravagantes? ¿Prefieres un esmalte semipermanente con un toque de brillo? ¡No hay límites para tu creatividad!
+                    Nuestras expertas manicuristas están siempre al tanto de las últimas tendencias en nail art y te ayudarán a encontrar el diseño perfecto para ti. ¿Qué tal unas uñas inspiradas en tu serie favorita, un diseño geométrico abstracto o unas flores de colores vibrantes? ¡Todo es posible!
+                    </p>
+            </section>
+
+        </main>
+
+        <!--ESTRUCTURA°3 = FOOTER-->
+        <footer id="footer">
+            <section class="footerLogo">
+                <picture class="footerLogoPicture">
+                    <img class="footerLogoPictureImg" src="icons/icono1.ico" alt="">
+                </picture>
+            </section>
+
+            <!--FOOTER PRESENTACIÓN-->
+            <section class="footerLinks">
+                <article class="footerLinksCopyright">
+                    <h3>Copyright 2024</h3>
+                    <h4>Creado por - Ayrton Litvichuk</h4>
+                </article>
+            </section>
+
+            <!--FOOTERLINKS-->
+            <section class="footerRedes">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a> 
+            </section>
+        </footer>
+    </body>
+</html>

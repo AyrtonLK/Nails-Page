@@ -1,0 +1,67 @@
+/*ESTILOS BANNER*/
+#body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "kanit", sans-serif;;
+    background: #fdfaeb;
+}
+#main {
+    margin-top: 10px;
+    min-height: 100vh;
+    padding: 0 ;
+    display: flex;
+    .inicioContenido1 {
+        height: 300px;
+        .inicioContenido1H2 {
+            font-size: 60px;
+            text-align: center;
+            padding-bottom: 10px;
+            background: linear-gradient(90deg, #f7cf4d,#d944ec,#c41448);
+            background-size: 200%;
+            background-clip: text;
+            color: transparent;
+            animation: text-animation 2s infinite;
+        }
+        @keyframes text-animation {
+            0% {
+                background-position: 0%;
+            }
+            100% {
+                background-position: 200%;
+            }
+        }
+        .inicioContenido1P{
+            text-align: center;
+        
+            padding: 10px 30px;
+            text-decoration-color: #f7a29e;
+        }
+    }
+}
+
+
+    
+
+    .mainBanner {
+        width: 100%;
+        height: 50vh;
+        margin-top: 80px;
+        background-image: url(../images/BANNER.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        .mainBannerPicture img {
+            position: absolute;
+            width: 100%;
+            height: 0px;
+            background-color: #faeddf;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        } 
+        
+    }
+
